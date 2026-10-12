@@ -1,6 +1,6 @@
 VIKASH KUMAR PORTFOLIO - COMPLETE FILES
 Admin (URL)
-httplocalhostportfilo1portfolio_mysql_admin_xamppportfolio_mysql_adminadmin.php
+http://localhost/portfilo1/portfolio_mysql_admin_xampp/portfolio_mysql_admin/login.php
 
 
 Files:
