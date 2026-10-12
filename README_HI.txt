@@ -1,4 +1,7 @@
 VIKASH KUMAR PORTFOLIO - COMPLETE FILES
+Admin (URL)
+httplocalhostportfilo1portfolio_mysql_admin_xamppportfolio_mysql_adminadmin.php
+
 
 Files:
 - index.html: portfolio page
