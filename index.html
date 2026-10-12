@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vikash Kumar — Software Developer</title>
+<link rel="stylesheet" href="style.css">
+<!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div class="noise"></div>
+
+<nav>
+  <a href="#">
+  <div class="logo">
+    <img src="myimage.png" alt="Vikash Kumar" class="nav-logo">
+  </div>
+  </a>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#" class="nav-link">01. Home</a>
+    <a href="#about" class="nav-link">02. About</a>
+    <a href="#skills" class="nav-link">03. Skills</a>
+    <a href="#projects" class="nav-link">04. Projects</a>
+    <a href="#contact" class="nav-link">05. Contact</a>
+  </div>
+
+  <div id="burger">
+    <div></div><div></div><div></div>
+  </div>
+</nav>
+
+
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="kicker" id="kickerText">AVAILABLE FOR FREELANCE &amp; FULL-TIME ROLES</div>
+      <h1 class="name"><span id="heroName">Vikash Kumar</span> <span class="grad" id="heroRoleText">Frontend Developer | Java Enthusiast</span></h1>
+      <div class="role-line">&gt; <span id="typed"></span></div>
+      <p class="hero-desc" id="heroDescription">I build responsive web applications using Java, HTML, CSS, JavaScript, and MySQL.</p>
+
+         <!-- Social Links -->
+        <div class="social-hero">
+          <a href="https://github.com/vk9939112734-creater" id="githubLink" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/vikash-kumar-038335336" id="linkedinLink" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vikashkumarvk8251380@gmail.com"
+          id="emailLink"aria-label="Send me an email"target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+
+          <a href="https://www.instagram.com/mr.v_i_k_a_s_h_8863/?hl=en" id="instagramLink" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="#" id="resumeBtn" class="btn btn-ghost">⭳ Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo">
+        <div class="ring"></div>
+        <div class="photo-circle">
+          <img src="profile.png" alt="Vikash Kumar" id="profilePhoto">
+        </div>
+        <div class="status-chip">Available now</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="line"></div></div>
+</header>
+
+<section id="about">
+  <div class="section-head reveal">
+    <span class="eyebrow">// 01</span>
+    <h2>About Me</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p id="aboutText">I'm <strong>Vikas Kumar</strong>, an aspiring software developer based in India, passionate about building **responsive websites and practical software solutions**. My interests include frontend development, Java programming, and creating user-friendly digital experiences.
+
+I believe in writing clean, maintainable code and continuously improving my skills by learning new technologies and building projects..</p>
+      <div class="stat-row">
+        <div class="stat"><b>1+</b><span>Years Experience</span></div>
+        <div class="stat"><b>05</b><span>Projects Shipped</span></div>
+        <div class="stat"><b>15+</b><span>Happy Clients</span></div>
+      </div>
+    </div>
+    <div class="terminal reveal">
+      <div class="term-bar"><span></span><span></span><span></span></div>
+      <div class="term-body">
+<div><span class="c">// developer.json</span></div>
+<div><span class="k">const</span> developer = {</div>
+<div>&nbsp;&nbsp;name: <span class="s">"Vikas Kumar"</span>,</div>
+<div>&nbsp;&nbsp;role: <span class="s">"Software Developer"</span>,</div>
+<div>&nbsp;&nbsp;stack: [<span class="s">"Java"</span>, <span class="s">"HTML"</span>, <span class="s">"Python"</span>],</div>
+<div>&nbsp;&nbsp;location: <span class="s">"India"</span>,</div>
+<div>&nbsp;&nbsp;openToWork: <span class="k">true</span>,</div>
+<div>&nbsp;&nbsp;coffeeLevel: <span class="k">Infinity</span></div>
+<div>};</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="section-head reveal">
+    <span class="eyebrow">// 02</span>
+    <h2>Skills &amp; Tools</h2>
+  </div>
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <linearGradient id="gradFill" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#5eead4"/>
+        <stop offset="100%" stop-color="#a78bfa"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <div class="skills-grid" id="skillsGrid">
+    <div class="skill-card reveal">
+      <h3>JavaScript</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:50">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">50%</div>
+        </div>
+      </div>
+      <span class="skill-tag">ES2023 · Async · Type-safety</span>
+    </div>
+    <div class="skill-card reveal">
+      <h3>Java</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:20">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">20%</div>
+        </div>
+      </div>
+      <span class="skill-tag">Core · OOP · Spring Boot</span>
+    </div>
+    <div class="skill-card reveal">
+      <h3>HTML/CSS</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:85">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">85%</div>
+        </div>
+      </div>
+      <span class="skill-tag">REST · GraphQL · Auth</span>
+    </div>
+    <div class="skill-card reveal">
+      <h3>Python</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:80">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">80%</div>
+        </div>
+      </div>
+      <span class="skill-tag">Automation · Data · Flask</span>
+    </div>
+    <div class="skill-card reveal">
+      <h3>Databases</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:82">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">82%</div>
+        </div>
+      </div>
+      <span class="skill-tag">PostgreSQL · MongoDB · Redis</span>
+    </div>
+    <div class="skill-card reveal">
+      <h3>MySQL</h3>
+      <div class="skill-circle-wrap">
+        <div class="skill-circle" style="--pct:40">
+          <svg viewBox="0 0 90 90">
+            <circle class="track" cx="45" cy="45" r="40"></circle>
+            <circle class="fill" cx="45" cy="45" r="40"></circle>
+          </svg>
+          <div class="pct-label">40%</div>
+        </div>
+      </div>
+      <span class="skill-tag">Docker · CI/CD · AWS</span>
+    </div>
+  </div>
+  
+</section>
+
+<section id="projects">
+  <div class="section-head reveal">
+    <span class="eyebrow">// 03</span>
+    <h2>Selected Projects</h2>
+  </div>
+  <div class="filter-row reveal">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="web">Web Apps</button>
+    <button class="filter-btn" data-filter="api">APIs</button>
+    <button class="filter-btn" data-filter="tool">Tools</button>
+  </div>
+  <div class="projects-grid" id="projectsGrid">
+    <div class="project-card reveal" data-cat="web">
+      <div class="project-top">
+        <div class="project-icon"></div>
+        <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>ShopFlow — E-commerce Platform</h3>
+      <p>A full-featured storefront with cart, checkout, and an admin dashboard for inventory and order management.</p>
+      <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Stripe</span></div>
+    </div>
+    <div class="project-card reveal" data-cat="api">
+      <div class="project-top">
+        <div class="project-icon">🔌</div>
+        <div class="project-links"><a href="#" target="_blank">Docs</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>TaskFlow API</h3>
+      <p>A REST + GraphQL API for task management with JWT auth, rate limiting, and webhook support.</p>
+      <div class="tag-row"><span class="tag">Express</span><span class="tag">PostgreSQL</span><span class="tag">GraphQL</span></div>
+    </div>
+    <div class="project-card reveal" data-cat="web">
+      <div class="project-top">
+        <div class="project-icon">📊</div>
+        <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>PulseBoard — Analytics Dashboard</h3>
+      <p>Real-time analytics dashboard with live charts, custom reports, and role-based access control.</p>
+      <div class="tag-row"><span class="tag">Next.js</span><span class="tag">D3.js</span><span class="tag">WebSockets</span></div>
+    </div>
+    <div class="project-card reveal" data-cat="tool">
+      <div class="project-top">
+        <div class="project-icon">⚙️</div>
+        <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>DevSnippets CLI</h3>
+      <p>A command-line tool for saving, searching, and sharing code snippets directly from the terminal.</p>
+      <div class="tag-row"><span class="tag">Python</span><span class="tag">Click</span><span class="tag">SQLite</span></div>
+    </div>
+    <div class="project-card reveal" data-cat="api">
+      <div class="project-top">
+        <div class="project-icon">🔐</div>
+        <div class="project-links"><a href="#" target="_blank">Docs</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>AuthGate</h3>
+      <p>A drop-in authentication microservice supporting OAuth2, magic links, and multi-factor auth.</p>
+      <div class="tag-row"><span class="tag">Node.js</span><span class="tag">Redis</span><span class="tag">Docker</span></div>
+    </div>
+    <div class="project-card reveal" data-cat="tool">
+      <div class="project-top">
+        <div class="project-icon">🧪</div>
+        <div class="project-links"><a href="#" target="_blank">Live</a><a href="#" target="_blank">Code</a></div>
+      </div>
+      <h3>ReguLint</h3>
+      <p>A configurable linter that catches accessibility and performance regressions before they ship.</p>
+      <div class="tag-row"><span class="tag">TypeScript</span><span class="tag">AST</span><span class="tag">CLI</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head reveal">
+    <span class="eyebrow">// 04</span>
+    <h2>Get In Touch</h2>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info reveal">
+      <p>## Get In Touch
+
+Looking for a developer for your next project, or interested in collaborating? I'm always open to internships, job opportunities, and new connections. Let's connect and build something great together!.</p>
+      <div class="info-row"><div class="ico">✉</div> vikashkumarvk8251380@gmail.com</div>
+      <div class="info-row"><div class="ico">📍</div> Bhagalpur, Bihar, India</div>
+      <div class="info-row"><div class="ico">💼</div> Open to Internships & Job Opportunities</div>
+    </div>
+    <form id="contactForm" class="reveal">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+      </div>
+     
+<button
+  type="button"
+  class="btn btn-primary"
+  id="submitBtn"
+  onclick="window.open('https://wa.me/919060088633?text=' + encodeURIComponent('Hello, I want to discuss a project.'), '_blank')"
+  style="align-self: flex-start;"
+>
+  Send Message →
+</button>
+
+      <div id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <span>© <span id="year"></span> 2026 <span id="footerName">Vikash Kumar</span>. Crafted with code & creativity.</span>
+  <div class="social">
+    <a href="https://github.com/vk9939112734-creater" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/vikash-kumar-038335336" target="_blank">LinkedIn</a>
+    <a href="https://www.facebook.com/profile.php?id=100072590464564" target="_blank">Facebook</a>
+  </div>
+  <a href="#" id="toTopLink">
+  <div id="toTop">↑ Top</div>
+  </a>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // Typed role text
+  const roles = ["Full-Stack Developer", "Java Developer & Spring Boot Specialist", "API Architect", "Problem Solver"];
+  let ri = 0, ci = 0, deleting = false;
+  const typedEl = document.getElementById('typed');
+  function typeLoop(){
+    const word = roles[ri];
+    if(!deleting){
+      ci++;
+      typedEl.textContent = word.slice(0, ci);
+      if(ci === word.length){ deleting = true; setTimeout(typeLoop, 1400); return; }
+    } else {
+      ci--;
+      typedEl.textContent = word.slice(0, ci);
+      if(ci === 0){ deleting = false; ri = (ri+1) % roles.length; }
+    }
+    setTimeout(typeLoop, deleting ? 40 : 80);
+  }
+  typeLoop();
+
+  // Active nav link on scroll
+  const navA = document.querySelectorAll('.nav-link');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        const id = entry.target.getAttribute('id');
+        navA.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  document.querySelectorAll('section[id]').forEach(s => observer.observe(s));
+
+  // Reveal-on-scroll animation
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+  // Animate skill circles once visible
+  const barObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.querySelectorAll('.fill').forEach(b => b.classList.add('filled'));
+        barObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('.skill-card').forEach(c => barObserver.observe(c));
+
+  // Project filtering
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const projectCards = document.querySelectorAll('.project-card');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      projectCards.forEach(card => {
+        card.classList.toggle('hide', f !== 'all' && card.dataset.cat !== f);
+      });
+    });
+  });
+
+  // ---- Contact form: connected to Formspree ----
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xqpzzabz";
+  const form = document.getElementById('contactForm');
+  const formMsg = document.getElementById('formMsg');
+  const submitBtn = document.getElementById('submitBtn');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    formMsg.classList.remove('error');
+    formMsg.textContent = '> sending...';
+    submitBtn.disabled = true;
+
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        formMsg.textContent = '> message sent. thanks — I will reply soon!';
+        form.reset();
+      } else {
+        const result = await response.json().catch(() => null);
+        formMsg.classList.add('error');
+        formMsg.textContent = '> something went wrong. please try again or email me directly.';
+      }
+    } catch (err) {
+      formMsg.classList.add('error');
+      formMsg.textContent = '> network error. please check your connection and try again.';
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+
+  // Resume button placeholder (replace href with your actual resume.pdf link)
+  document.getElementById('resumeBtn').addEventListener('click', (e) => {
+    if (!e.currentTarget.getAttribute('href') || e.currentTarget.getAttribute('href') === '#') {
+      e.preventDefault();
+      alert('Please add your Resume URL in the Admin Dashboard.');
+    }
+  });
+  document.getElementById('resumeNav').addEventListener('click', (e) => e.preventDefault());
+
+  // Footer year + back to top
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('toTop').addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+</script>
+
+<script>
+// Load content maintained by the PHP/MySQL admin dashboard.
+(async function loadAdminManagedPortfolio() {
+  const apiUrl = new URL('./api.php', window.location.href);
+  apiUrl.searchParams.set('_', Date.now().toString());
+  const setText = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value !== undefined && value !== null && String(value).trim() !== '') el.textContent = String(value);
+  };
+  const safeUrl = value => {
+    if (!value) return '';
+    try { const u = new URL(value, window.location.href); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; }
+    catch (_) { return ''; }
+  };
+  const escapeText = value => String(value ?? '');
+  try {
+    const response = await fetch(apiUrl.toString(), { cache: 'no-store' });
+    if (!response.ok) throw new Error('API returned HTTP ' + response.status);
+    const data = await response.json();
+    if (data.error) throw new Error(data.error);
+    const c = data.content || {};
+
+    setText('#kickerText', c.kicker);
+    setText('#heroName', c.name);
+    setText('#heroRoleText', c.role);
+    setText('#heroDescription', c.hero_description);
+    setText('#aboutText', c.about);
+    setText('#footerName', c.footer_text || c.name);
+
+    const emailLink = document.getElementById('emailLink');
+    if (emailLink && c.email) emailLink.href = 'mailto:' + c.email;
+    const githubLink = document.getElementById('githubLink');
+    if (githubLink && c.github_url) githubLink.href = safeUrl(c.github_url) || githubLink.href;
+    const linkedinLink = document.getElementById('linkedinLink');
+    if (linkedinLink && c.linkedin_url) linkedinLink.href = safeUrl(c.linkedin_url) || linkedinLink.href;
+    const instagramLink = document.getElementById('instagramLink');
+    if (instagramLink && c.instagram_url) instagramLink.href = safeUrl(c.instagram_url) || instagramLink.href;
+    const resumeBtn = document.getElementById('resumeBtn');
+    if (resumeBtn && c.resume_url) { resumeBtn.href = safeUrl(c.resume_url) || '#'; resumeBtn.removeAttribute('data-placeholder'); }
+    const photo = document.getElementById('profilePhoto');
+    if (photo && c.profile_image) photo.src = safeUrl(c.profile_image) || photo.src;
+    const wa = document.querySelector('.whatsapp-float');
+    if (wa && c.whatsapp) wa.href = 'https://wa.me/' + String(c.whatsapp).replace(/\D/g, '');
+
+    // Render skills from MySQL so additions, edits and deletions appear on the page.
+    const skillsGrid = document.getElementById('skillsGrid');
+    if (skillsGrid && Array.isArray(data.skills)) {
+      skillsGrid.replaceChildren();
+      data.skills.forEach(skill => {
+        const pct = Math.max(0, Math.min(100, Number(skill.percentage) || 0));
+        const card = document.createElement('div'); card.className = 'skill-card reveal in';
+        const title = document.createElement('h3'); title.textContent = skill.name || 'Skill'; card.appendChild(title);
+        const wrap = document.createElement('div'); wrap.className = 'skill-circle-wrap';
+        const circle = document.createElement('div'); circle.className = 'skill-circle'; circle.style.setProperty('--pct', pct);
+        circle.innerHTML = '<svg viewBox="0 0 90 90" aria-hidden="true"><circle class="track" cx="45" cy="45" r="40"></circle><circle class="fill filled" cx="45" cy="45" r="40"></circle></svg>';
+        const label = document.createElement('div'); label.className = 'pct-label'; label.textContent = pct + '%'; circle.appendChild(label); wrap.appendChild(circle); card.appendChild(wrap);
+        const desc = document.createElement('span'); desc.className = 'skill-tag'; desc.textContent = skill.description || ''; card.appendChild(desc);
+        skillsGrid.appendChild(card);
+      });
+    }
+
+    // Render projects from MySQL and retain category filter behaviour.
+    const projectsGrid = document.getElementById('projectsGrid');
+    if (projectsGrid && Array.isArray(data.projects)) {
+      projectsGrid.replaceChildren();
+      data.projects.forEach(project => {
+        const category = String(project.category || 'web').toLowerCase();
+        const card = document.createElement('div'); card.className = 'project-card reveal in'; card.dataset.cat = ['web','api','tool'].includes(category) ? category : 'web';
+        const top = document.createElement('div'); top.className = 'project-top';
+        const icon = document.createElement('div'); icon.className = 'project-icon';
+        if (project.image_url && safeUrl(project.image_url)) { const img = document.createElement('img'); img.src = safeUrl(project.image_url); img.alt = project.title || 'Project image'; img.style.maxWidth = '100%'; img.style.maxHeight = '70px'; icon.appendChild(img); }
+        else icon.textContent = category === 'api' ? '🔌' : category === 'tool' ? '⚙️' : '💻';
+        top.appendChild(icon);
+        const links = document.createElement('div'); links.className = 'project-links';
+        [['Live', project.live_url], ['Code', project.code_url]].forEach(([label, url]) => { if (url && safeUrl(url)) { const a = document.createElement('a'); a.href = safeUrl(url); a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = label; links.appendChild(a); } });
+        top.appendChild(links); card.appendChild(top);
+        const h = document.createElement('h3'); h.textContent = project.title || 'Project'; card.appendChild(h);
+        const p = document.createElement('p'); p.textContent = project.description || ''; card.appendChild(p);
+        projectsGrid.appendChild(card);
+      });
+      // Rebind project filter buttons to the newly rendered cards.
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+          const filter = btn.dataset.filter;
+          projectsGrid.querySelectorAll('.project-card').forEach(card => card.classList.toggle('hide', filter !== 'all' && card.dataset.cat !== filter));
+        };
+      });
+    }
+    console.info('Portfolio updated from MySQL API.');
+  } catch (error) {
+    console.error('Could not load portfolio data from api.php:', error);
+  }
+})();
+</script>
+
+</body>
+</html>
